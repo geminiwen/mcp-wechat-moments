@@ -5,6 +5,9 @@ description = "MCP server for publish wechat moments"
 dependencies = [
     "mcp"
 ]
+urls = [
+    "https://github.com/geminiwen/mcp-wechat-moments"
+]
 authors = [
     {name = "Gemini Wen", email = "coffeesherk@gmail.com"}
 ]
