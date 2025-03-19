@@ -14,4 +14,9 @@ Use uv to install this packages
 
 # Usage
 Use client like Cherry Studio
+![intro](misc/intro.png)
+
+or
+
+> uvx mcp-wechat-moments
 
