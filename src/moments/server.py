@@ -1,4 +1,5 @@
 # server.py
+import os
 import pathlib
 import shlex
 import subprocess
@@ -10,7 +11,8 @@ mcp = FastMCP("Wechat-Moments")
 
 def run_osascript(script, text):
     quoted_script = shlex.quote(script)
-    command = ['osascript', quoted_script, text]  # 使用列表形式，避免shell注入
+    auto_publish = os.getenv("AUTO_PUBLISH", "false")
+    command = ['osascript', quoted_script, text, auto_publish]  # 使用列表形式，避免shell注入
     result = subprocess.run(command, capture_output=True, text=True, check=True)
     return result.stdout.strip()
 
