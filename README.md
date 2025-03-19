@@ -4,6 +4,8 @@ use applescript to publish moments on macOS
 
 # Installation
 
+Recommend use `uvx` to setup
+
 ## requirements
 We need cliclick to emulate mouse click event
 > brew install cliclick
