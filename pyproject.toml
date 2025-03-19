@@ -1,0 +1,13 @@
+[project]
+version = "0.0.1"
+name = "mcp-wechat-moments"
+dependencies = [
+    "mcp"
+]
+authors = [
+    {name = "Gemini Wen", email = "coffeesherk@gmail.com"}
+]
+requires-python = ">= 3.11"
+
+[project.scripts]
+mcp-wechat = "server:main"
