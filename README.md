@@ -23,7 +23,9 @@ or
 
 > uvx mcp-wechat-moments
 
-Auto-Publish Feature is not enabled by default, you could enable it with env variables:
+## Auto Publish
+
+Auto-Publish Feature is not enabled by default, you could enable it via env variables:
 
 > AUTO_PUBLISH=true
 
