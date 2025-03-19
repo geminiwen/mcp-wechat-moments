@@ -10,4 +10,4 @@ authors = [
 requires-python = ">= 3.11"
 
 [project.scripts]
-mcp-wechat = "server:main"
+mcp-wechat-moments = "server:main"
