@@ -8,7 +8,6 @@ from mcp.server.fastmcp import FastMCP
 # Create an MCP server
 mcp = FastMCP("Wechat-Moments")
 
-
 def run_osascript(script, text):
     quoted_script = shlex.quote(script)
     command = ['osascript', quoted_script, text]  # 使用列表形式，避免shell注入
@@ -29,4 +28,5 @@ def send_moments(text: str) -> str:
 
 
 def main():
+    print("OK")
     mcp.run()

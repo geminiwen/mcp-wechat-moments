@@ -1,5 +1,5 @@
 [project]
-version = "0.0.2"
+version = "0.0.3"
 name = "mcp-wechat-moments"
 description = "MCP server for publish wechat moments"
 dependencies = [
@@ -11,4 +11,7 @@ authors = [
 requires-python = ">= 3.11"
 
 [project.scripts]
-mcp-wechat-moments = "server:main"
+mcp-wechat-moments = "moments.server:main"
+
+[tool.setuptools.package-data]
+"moments" = ["*.scpt"]
