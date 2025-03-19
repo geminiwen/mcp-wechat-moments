@@ -10,18 +10,14 @@ Recommend use `uvx` to setup
 We need cliclick to emulate mouse click event
 > brew install cliclick
 
-Use uv to install this packages
-> uv install mcp-wechat-moments
+Use uvx to install this packages
+> uvx mcp-wechat-moments
 
 
 # Configuration & Usage
 Use client like Cherry Studio
 
 ![intro](misc/intro.png)
-
-or
-
-> uvx mcp-wechat-moments
 
 ## Auto Publish
 
