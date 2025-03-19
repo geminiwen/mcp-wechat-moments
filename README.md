@@ -25,5 +25,5 @@ or
 
 Auto-Publish Feature is not enabled by default, you could enable it with env variables:
 
-AUTO_PUBLISH=true
+> AUTO_PUBLISH=true
 

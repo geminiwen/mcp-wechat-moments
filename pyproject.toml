@@ -1,5 +1,5 @@
 [project]
-version = "0.0.4"
+version = "0.0.5"
 name = "mcp-wechat-moments"
 description = "MCP server for publish wechat moments"
 dependencies = [
@@ -16,4 +16,4 @@ mcp-wechat-moments = "moments.server:main"
 
 [tool.setuptools.package-data]
 "moments" = ["*.scpt"]
-"*" = ["README.md", "intro.png"]
+"*" = ["README.md", " misc/intro.png"]
