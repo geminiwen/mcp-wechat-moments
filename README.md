@@ -1,4 +1,4 @@
-MCP-Wechat-moments
+# MCP Wechat Moment Server
 
 use applescript to publish moments on macOS
 
