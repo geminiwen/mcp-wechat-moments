@@ -1,6 +1,7 @@
 [project]
-version = "0.0.1"
+version = "0.0.2"
 name = "mcp-wechat-moments"
+description = "MCP server for publish wechat moments"
 dependencies = [
     "mcp"
 ]
